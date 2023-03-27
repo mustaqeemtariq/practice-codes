@@ -31,7 +31,7 @@ def store_in_csv(result, csv_file_path)
   end
 end
 
-input = 'symbols = 10'
+input = 'numbers = 20'
 csv_file_path = 'passwords.csv'
 
 generated_hash = { input.split('=')[0].strip => input.split('=')[1].to_i }
